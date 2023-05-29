@@ -20,7 +20,7 @@ const Card = ({information,handle}) => {
             <h3>Population:{convert.population}</h3>
             <h3>Region    :{convert.region}</h3>
             <h3>StartWeek :{convert.startOfWeek}</h3>
-              <button style={{padding:"5px 10px", color:"red" ,marginBottom:"10px"}} onClick={()=>handle(convert)} type="button">Remove</button>
+              <button style={{padding:"5px 10px", color:"red" ,marginBottom:"10px"}} onClick={()=>handle(convert)} type="button">add</button>
             
         </div>
     );
